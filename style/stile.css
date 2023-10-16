@@ -13,7 +13,7 @@ body{
 
 /*CSS HEADER*/
 header{
-    height: 50px;
+    height: 650px;
 }
 
 .flex{
@@ -46,4 +46,52 @@ header{
 
 .jumbotron{
     height: 500px;
+}
+
+
+/*CSS MAIN*/
+
+.container{
+    width: 60%;
+    /*height: 700px;*/
+    margin: 0 auto;
+    border: magenta solid 2px;
+}
+
+.card{
+    width: calc(100% / 3);
+    border: orangered solid 1px ;
+    height:700px;
+
+}
+
+.container-title{
+    width: 60%;
+    margin: 0 auto;
+    height: 100px;
+    border: magenta solid 2px;
+}
+
+.centre-card{
+    margin: 0 2rem;
+}
+
+.horizontal-card{
+    height: 200px;
+    border: magenta solid 2px;
+    margin-top:4rem ;
+    margin-bottom:4rem;
+}
+
+.column{
+    height: 400px;
+    border: magenta solid 2px;
+}
+
+.column-big{
+    width: 60%;
+}
+
+.column-small{
+    width: 40%;
 }
