@@ -1,0 +1,36 @@
+/*Reset*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*CSS BODY*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*CSS HEADER*/
+header{
+    display: flex;
+}
+
+header > .nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    background-color: blue;
+    width: 50%;
+    border: solid magenta 2px;
+}
+
+
+.jumbo{
+    height: 300px;
+    background-color: #B4D0E7;
+    border: solid magenta 2px;
+}
