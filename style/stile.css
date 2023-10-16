@@ -38,7 +38,6 @@ header{
 
 .jumbo{
     background-color: #B4D0E7;
-    border: solid magenta 2px;
     padding-top: 6rem;
 }
 
@@ -49,7 +48,7 @@ header{
 }
 
 .jumbotron{
-    height: 500px;
+    /*height: 500px;*/
 }
 
 ul{
@@ -72,7 +71,31 @@ button{
     padding:.5rem;
     border: none
 }
+h1{
+    font-size: 60px;
+}
 
+.jumbo-content{
+    padding:2rem 0;
+    font-size:18px;
+}
+
+.text-size{
+    font-size:18px;
+}
+.jumbo-image{
+    width: 630px;
+    height: 450px;
+    position: absolute;
+    top: 28px;
+}
+
+.relative{
+    position: relative;
+}
+.fa-arrow-down{
+    font-size:30px;
+}
 /*CSS MAIN*/
 
 .container{
