@@ -38,7 +38,6 @@ header{
 
 .jumbo{
     background-color: #B4D0E7;
-    padding-top: 6rem;
 }
 
 .jumbo-container{
@@ -49,7 +48,9 @@ header{
 
 .jumbotron{
     /*height: 500px;*/
-    margin-bottom:7rem;
+    margin-bottom:10rem;
+    position: relative;
+    top: 82px;
 }
 
 ul{
@@ -72,13 +73,31 @@ button{
     padding:.5rem;
     border: none
 }
+.column{
+    /*height: 400px;*/
+    border: magenta solid 2px;
+}
+
+.column-big{
+    width: 60%;
+}
+
+.column-small{
+    width: 40%;
+}
+
 h1{
     font-size: 60px;
+    padding-bottom: 3rem;
 }
 
 .jumbo-content{
-    padding:2rem 0;
     font-size:18px;
+    padding-bottom: 2rem;
+}
+
+.under-button{
+    padding-top:2rem;
 }
 
 .text-size{
@@ -86,15 +105,11 @@ h1{
 }
 .jumbo-image{
     height: 450px;
-    position: absolute;
-    top: 28px;
 }
 
-.relative{
-    position: relative;
-}
+
 .fa-arrow-down{
-    font-size:30px;
+    font-size:40px;
 }
 /*CSS MAIN*/
 
@@ -114,7 +129,7 @@ span{
 }
 .card{
     width: calc(100% / 3);
-    border: orangered solid 1px ;
+    border: #D3D3D6 solid 1px ;
     height:900px;
 }
 
@@ -132,7 +147,7 @@ h3{
 
 .card-divider{
     width: 100%;
-    background-color: black;
+    background-color: #D3D3D6;
     height: 1px;
 }
 
@@ -163,9 +178,14 @@ h3{
     margin: 1rem 0 1rem 0;
 }
 
+.button-card{
+    display: flex;
+    justify-content: center;
+}
+
 .content-divider{
     width: 20%;
-    background-color: black;
+    background-color: #D3D3D6;
     height: 1px;
     margin-top:2rem;
     margin-bottom:2rem;
@@ -183,23 +203,49 @@ h3{
 }
 
 .horizontal-card{
-    height: 200px;
-    border: magenta solid 2px;
+    height: 250px;
+    border: #D3D3D6 solid 1px ;
     margin-bottom: 4rem;
 }
 
-.column{
-    height: 400px;
-    border: magenta solid 2px;
+.content-card-horizontal{
+    display: flex;
+    justify-content: space-between; 
+    padding:1rem;
 }
 
-.column-big{
-    width: 60%;
+.content-horizontal{
+    padding-bottom:2rem;
+}
+h5{
+    padding: 1rem 0;
 }
 
-.column-small{
-    width: 40%;
+.partner-image{
+    width: 100%;
 }
+
+.button-white{
+    color:black;
+    background-color: white;
+    border: black solid 1px ;
+    padding: .7rem;
+}
+
+.column-title{
+    font-size:20px;
+    padding: 3rem 1rem 0 3rem;
+}
+
+.column-content{
+    padding:2rem 1rem 2rem 3rem;
+}
+.button-column{
+    padding-left:3rem
+}
+
+
+
 
 .business-card{
     width: calc(100% / 3);
