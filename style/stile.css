@@ -146,7 +146,7 @@ h3{
 
 .fa-user , .fa-users , .fa-building{
     font-size:15px;
-    padding:.3rem ;
+    padding: .3rem  ;
 }
 
 .card-divider{
@@ -172,14 +172,14 @@ h3{
 }
 
 .function{
-    margin-bottom:2rem;
+    /*margin-bottom:2rem;*/
 }
 
 .link{
     margin: 2rem 0 1rem 0;
 }
 .spunta{
-    margin: 1rem 0 1rem 0;
+    /*margin: 1rem 0 1rem 0;*/
 }
 
 .button-card{
@@ -433,4 +433,27 @@ h6{
 
 .light-grey{
     color: #C1C1C1;
+}
+
+
+.fa-check{
+    color:#0161FF;
+
+}
+
+.fa-share-nodes,.fa-check{
+    padding: .2rem .2rem
+}
+
+.fa-folder{
+    padding: .6rem .2rem 0 0;
+}
+
+
+.distance{
+    margin-top:1rem ;
+}
+
+.distance-top-bottom{
+    margin: 1rem 0 2rem;
 }
