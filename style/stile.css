@@ -280,20 +280,22 @@ img{
 }
 
 .container-box{
-    height: 500px;
-    width: 100%;
+    /*height: 500px;*/
+    /*width: 100%;*/
     /*border: 2px solid magenta;*/
     /*margin-bottom: 4rem;*/
 }
 
 .column-box{
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     border:2px solid magenta;
 }
 
 .internal-box{
     border: 2px solid black;
     width: calc(100% / 2);
+    height: 50%;
 }
 .wrap{
     flex-wrap:wrap
@@ -347,7 +349,8 @@ img{
 }
 
 .image-box{
-    width: 100px;
+    width: 50%;
+    filter:invert();
 }
 
 .column-fifty{
