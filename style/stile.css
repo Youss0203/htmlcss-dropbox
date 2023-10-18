@@ -141,11 +141,12 @@ h3{
     /* text-align: center; */
     align-content: center;
     justify-content: center;
-    padding: .5rem;
+    padding: .5rem .3rem;
 }
 
-.fa-user{
+.fa-user , .fa-users , .fa-building{
     font-size:15px;
+    padding:.3rem ;
 }
 
 .card-divider{
@@ -420,6 +421,16 @@ h6{
     margin-bottom:2rem;
 }
 
+.no-left-padding{
+    padding:0;
+}
 
 
+.fa-caret-up{
+    padding: .9rem 0;
+    vertical-align: middle;
+}
 
+.light-grey{
+    color: #C1C1C1;
+}
